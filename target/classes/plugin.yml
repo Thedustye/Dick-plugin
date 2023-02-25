@@ -1,0 +1,23 @@
+name: FirstThedustyePlugin
+version: 1.5
+main: me.thedustye.firstthedustyeplugin.FirstThedustyePlugin
+api-version: 1.15
+commands:
+  helloworld:
+    description: 一个逼指令
+  gonggao:
+    description: 发送公告
+  add:
+    description: 测试相加
+  cofig:
+    description: 读取配置文件
+  change:
+    description: 修改配置文件
+  health:
+    description: 查看你的血量
+  cd:
+    description: 打开菜单
+permissions:
+  helloworld.commands.gonggao:
+    description: 公告
+    default: op
